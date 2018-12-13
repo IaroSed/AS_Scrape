@@ -4,7 +4,8 @@ import time
 import urllib.request as urllib
 
 Links = ('https://appsource.microsoft.com/api/v2.0/apps?api-version=2017-04-24', 'https://smpwfe-prod-wus.smp-ase-prod-wus.p.azurewebsites.net/api/v2.0/apps?%24skiptoken=0_1&api-version=2017-04-24', 'https://smpwfe-prod-wus.smp-ase-prod-wus.p.azurewebsites.net/api/v2.0/apps?%24skiptoken=0_2&api-version=2017-04-24', 'https://smpwfe-prod-wus.smp-ase-prod-wus.p.azurewebsites.net/api/v2.0/apps?%24skiptoken=0_3&api-version=2017-04-24',
-'https://smpwfe-prod-wus.smp-ase-prod-wus.p.azurewebsites.net/api/v2.0/apps?%24skiptoken=0_4&api-version=2017-04-24' )
+'https://smpwfe-prod-wus.smp-ase-prod-wus.p.azurewebsites.net/api/v2.0/apps?%24skiptoken=0_4&api-version=2017-04-24',
+'https://smpwfe-prod-wus.smp-ase-prod-wus.p.azurewebsites.net/api/v2.0/apps?%24skiptoken=0_5&api-version=2017-04-24' )
 
 Exit_F = open("ExportAS with API 20180701.txt", 'w',encoding='utf-8')
 
